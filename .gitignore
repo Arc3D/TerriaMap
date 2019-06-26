@@ -1,4 +1,6 @@
 node_modules/
+*.lock
+*lock.json
 .idea/
 wwwroot/build/
 wwwroot/doc/

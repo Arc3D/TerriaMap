@@ -155,8 +155,8 @@
         },
         {
           "name": "My GeoServer Web Map Service",
-          "description": "[My GeoServer](http://127.0.0.1:8080/geoserver)",
-          "url": "http://127.0.0.1:8080/geoserver/wms",
+          "description": "[My GeoServer](http://62.234.144.135:8080/geoserver)",
+          "url": "http://62.234.144.135:8080/geoserver/wms",
           "type": "wms-getCapabilities"
         }
       ]
