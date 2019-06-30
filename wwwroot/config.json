@@ -9,7 +9,7 @@
         googleAnalyticsOptions: null,
         /* Text that appears at the bottom of the map */
         disclaimer: {
-            text: "Disclaimer: This map must not be used for navigation or precise spatial analysis",
+            text: "",
             url: ""
         },
         /*
@@ -46,7 +46,7 @@
         // See comments in lib/Views/global.scss for further information about customising colors, logos, fonts etc.
         brandBarElements: [
             "",
-            "<a target=\"_blank\" href=\"https://terria.io\"><img src=\"images/arc3d_logo.png\" height=\"52\" title=\"Version: {{version}}\" /></a>",
+            "<a target=\"_blank\" href=\"http://cloudgis.top\"><img src=\"images/arc3d_logo.png\" height=\"52\" title=\"Arc 3D\"\"Version: {{version}}\" /></a>",
             ""
         ],
         // Shown when things go wrong.
