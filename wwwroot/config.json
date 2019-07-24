@@ -64,7 +64,10 @@
         "experimentalFeatures": true,
 
         // Disable terria logo 
-        "hideTerriaLogo": true
+        "hideTerriaLogo": true,
+        
+        "storyEnabled": true,
+        "showStoryNotifications": false
     }
 }
 
