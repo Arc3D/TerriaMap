@@ -1,6 +1,6 @@
 import { Menu, Nav, ExperimentalMenu } from 'terriajs/lib/ReactViews/StandardUserInterface/customizable/Groups';
 import MeasureTool from 'terriajs/lib/ReactViews/Map/Navigation/MeasureTool';
-//import ClippingPlaneTool from 'terriajs/lib/ReactViews/Map/Navigation/ClippingPlaneTool';
+import ClippingPlaneTool from 'terriajs/lib/ReactViews/Map/Navigation/ClippingPlaneTool';
 import MenuItem from 'terriajs/lib/ReactViews/StandardUserInterface/customizable/MenuItem';
 import PropTypes from 'prop-types';
 import React from 'react';
@@ -30,6 +30,7 @@ export default function UserInterface(props) {
             </Menu>
             <Nav>
                 <MeasureTool terria={props.viewState.terria} key="measure-tool"/>
+                <ClippingPlaneTool terria={props.viewState.terria} key="clipping-plane-tool"/>
             </Nav>
             <ExperimentalMenu>
                 <If condition={isBrowserSupportedAV()}>
