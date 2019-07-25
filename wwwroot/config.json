@@ -41,6 +41,10 @@
         // This is used in various text messages. You should also set <title> in index.html
         appName: "Arc3D Map",
 
+        useCesiumIonTerrain: true,
+
+        cesiumIonAccessToken: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiI2MWQ1MTFjNy01ZDY0LTQ2ZjctOWQyZi04ZDY4NzE4MDUyYjUiLCJpZCI6MTI3NDcsInNjb3BlcyI6WyJhc3IiLCJnYyJdLCJpYXQiOjE1NjE3NDA0Mjd9.wCexfg43nrSqtNG8h-eBwqoUvgezZXg58bDDfuaoc60",
+
         "bingMapsKey": "AuvBBF8D5yYRX687iX3eel9uFyoLspYiWxZhM_ZzNc6CgnsdUuCZysqdX9z5-qoq",
 
         // See comments in lib/Views/global.scss for further information about customising colors, logos, fonts etc.
@@ -63,9 +67,9 @@
         // Disable it if things go wrong with the experimental features or your users aren't robust to features which might change or disapear completly.
         "experimentalFeatures": true,
 
-        // Disable terria logo 
+        // Hide Terria logo
         "hideTerriaLogo": true,
-        
+
         "storyEnabled": true,
         "showStoryNotifications": false
     }
