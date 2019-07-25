@@ -1,9 +1,9 @@
-cd .
+cd /home/ubuntu/projects/TerriaMap/ 
 git pull
-cd ./packages/terriajs
+cd /home/ubuntu/projects/TerriaMap/packages/terriajs
 git pull
-cd ../cesium
+cd /home/ubuntu/projects/TerriaMap/packages/cesium
 git pull
-cd ..
+cd /home/ubuntu/projects/TerriaMap/
 npm run gulp
 npm start
