@@ -64,6 +64,70 @@
                 151.3075,
                 -33.796
               ]
+            },
+            {
+              "name": "善逝八塔",
+              "type": "3d-tiles",
+              "description": "善逝八塔实景三维展示",
+              "url": "test/3DTiles/bata/tileset.json",
+              "options": {
+                  "maximumScreenSpaceError": 1,
+                  "maximumNumberOfLoadedTiles": 1000
+              },
+              "rectangle": [
+                101.56677,
+                36.49010,
+                101.56703,
+                36.49033
+              ]
+            },
+            {
+              "name": "时轮坛城",
+              "type": "3d-tiles",
+              "description": "时轮坛城实景三维展示",
+              "url": "test/3DTiles/sltc/tileset.json",
+              "options": {
+                  "maximumScreenSpaceError": 1,
+                  "maximumNumberOfLoadedTiles": 1000
+              },
+              "rectangle": [
+                101.56584,
+                36.48738,
+                101.56827,
+                36.48961
+              ]
+            },
+            {
+              "name": "中山门",
+              "type": "3d-tiles",
+              "description": "中山门实景三维展示",
+              "url": "test/3DTiles/zsm/tileset.json",
+              "options": {
+                  "maximumScreenSpaceError": 1,
+                  "maximumNumberOfLoadedTiles": 1000
+              },
+              "rectangle": [
+                101.56581,
+                36.48880,
+                101.56829,
+                36.49098
+              ]
+            },
+            {
+              "name": "大场景实景三维",
+              "type": "3d-tiles",
+              "description": "青海大场景实景三维展示",
+              "url": "test/3DTiles/qinghai/tileset.json",
+              "options": {
+                  "maximumScreenSpaceError": 1,
+                  "maximumNumberOfLoadedTiles": 1000
+              },
+              "rectangle": [
+                101.54751,
+                36.47250,
+                101.57595,
+                36.49802
+              ]
             }
           ]
         },
