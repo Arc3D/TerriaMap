@@ -87,7 +87,7 @@ module.exports = terria.start({
         var globalBaseMaps = createGlobalBaseMapOptions(terria, terria.configParameters.bingMapsKey);
 
         var allBaseMaps = chinaBaseMaps.concat(globalBaseMaps);
-        selectBaseMap(terria, allBaseMaps, '中国地图彩色版（含POI）', true);
+        selectBaseMap(terria, allBaseMaps, 'Bing Maps Aerial', true);
 
         // Show a modal disclaimer before user can do anything else.
         if (defined(terria.configParameters.globalDisclaimer)) {

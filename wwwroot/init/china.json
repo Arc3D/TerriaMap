@@ -13,9 +13,9 @@
       "isOpen": true,
       "items": [
         {
-          "name": "三维城市模型",
+          "name": "三维场景",
           "type": "group",
-          "description": "![aero3Dpro](http://aero3dpro.com.au/images/aero3dpro-logo2.png)\n\nAero3Dpro is an Australian 3D mapping service for the generation of geographically accurate, fully textured and high resolution 3D models of natural and urban environments.\n\nIt is an end-to-end service based on aerial photogrammetry techniques including flight planning, image acquisition, 3D processing, geo-registration and final delivery.\n\nAero3Dpro models can be provided as stand-alone data for use in common 3D rendering and CAD software or as 3D GIS-ready products.\n\nhttp://aero3dpro.com.au/\n\nThese datasets use the [Cesium 3D Tiles](https://github.com/AnalyticalGraphicsInc/3d-tiles) format.",
+          "description": "这是一些三维场景的展示示例数据",
           "items": [
             {
               "name": "布里斯班3D城市模型",
