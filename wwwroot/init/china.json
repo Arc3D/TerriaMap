@@ -114,10 +114,10 @@
               ]
             },
             {
-              "name": "大场景实景三维",
+              "name": "塔尔寺大场景",
               "type": "3d-tiles",
-              "description": "青海大场景实景三维展示",
-              "url": "test/3DTiles/qinghai/tileset.json",
+              "description": "塔尔寺大场景实景三维展示",
+              "url": "test/3DTiles/tes/tileset.json",
               "options": {
                   "maximumScreenSpaceError": 1,
                   "maximumNumberOfLoadedTiles": 1000
