@@ -162,6 +162,12 @@
           "description": "[My GeoServer](http://62.234.144.135:8080/geoserver)",
           "url": "http://62.234.144.135:8080/geoserver/wms",
           "type": "wms-getCapabilities"
+        },
+        {
+          "name": "我的地图服务2",
+          "description": "[My GeoServer2](http://geo.easyfind.top:8080/geoserver)",
+          "url": "http://geo.easyfind.top:8080/geoserver/wms",
+          "type": "wms-getCapabilities"
         }
       ]
     }
