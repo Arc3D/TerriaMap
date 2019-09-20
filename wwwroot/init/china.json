@@ -128,6 +128,22 @@
                 101.57595,
                 36.49802
               ]
+            },
+            {
+              "name": "土楼观",
+              "type": "3d-tiles",
+              "description": "土楼观三维展示",
+              "url": "test/3DTiles/tlg/tileset.json",
+              "options": {
+                  "maximumScreenSpaceError": 1,
+                  "maximumNumberOfLoadedTiles": 1000
+              },
+              "rectangle": [
+                101.773001,
+                36.631357,
+                101.793001,
+                36.651357
+              ]
             }
           ]
         },
