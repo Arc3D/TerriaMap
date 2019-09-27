@@ -31,26 +31,26 @@ function isBrowserSupportedAV() {
 }
 
 export default function UserInterface(props) {
-    return (
-        <StandardUserInterface {... props} version={version}>
-            <Menu>
-                <MenuItem caption="¹ØÓÚ" href="about.html" key="about-link"/>
-            </Menu>
-            <Nav>
-                <MeasureTool terria={props.viewState.terria} key="measure-tool"/>
-            </Nav>
-            <ExperimentalMenu>
-                <If condition={isBrowserSupportedAV()}>
-                    <SplitPoint
-                      loadComponent={loadAugmentedVirtuality}
-                      viewState={props.viewState}
-                      terria={props.viewState.terria}
-                      experimentalWarning={true}
-                    />
-                </If>
-            </ExperimentalMenu>
-        </StandardUserInterface>
-    );
+  return (
+    <StandardUserInterface {...props} version={version}>
+      <Menu>
+        <MenuItem caption="å…³äºŽ" href="about.html" key="about-link" />
+      </Menu>
+      <Nav>
+        <MeasureTool terria={props.viewState.terria} key="measure-tool" />
+      </Nav>
+      <ExperimentalMenu>
+        <If condition={isBrowserSupportedAV()}>
+          <SplitPoint
+            loadComponent={loadAugmentedVirtuality}
+            viewState={props.viewState}
+            terria={props.viewState.terria}
+            experimentalWarning={true}
+          />
+        </If>
+      </ExperimentalMenu>
+    </StandardUserInterface>
+  );
 }
 
 UserInterface.propTypes = {
