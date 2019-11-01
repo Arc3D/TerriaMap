@@ -9,5 +9,4 @@ This is a complete website built using the TerriaJS library. See the [TerriaJS R
 
 
 
-### admin_tools
-- you can use admin_tools for automation.
+For instructions on how to deploy your map, see [the documentation here](doc/deploying/deploying-to-aws.md).
